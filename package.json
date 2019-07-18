@@ -1,25 +1,42 @@
 {
   "name": "vue-ele-form-image-uploader",
+  "description": "vue-ele-form 的图片上传组件",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "vue-ele-upload-image": "^2.0.5"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dream2023/vue-ele-form-image-uploader"
+  },
+  "main": "lib/index.js",
+  "homepage": "https://github.com/dream2023/vue-ele-form-image-uploader",
+  "keywords": [
+    "vue-ele-form",
+    "image-uploader",
+    "图片上传",
+    "vue-uploader",
+    "uploader",
+    "image"
+  ],
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
     "@vue/cli-plugin-eslint": "^3.9.0",
     "@vue/cli-service": "^3.9.0",
     "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.1",
+    "core-js": "^2.6.5",
+    "element-ui": "^2.10.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "lint-staged": "^8.1.5",
+    "vue": "^2.6.10",
+    "vue-ele-form": "^0.2.5",
     "vue-template-compiler": "^2.6.10"
   },
   "gitHooks": {
