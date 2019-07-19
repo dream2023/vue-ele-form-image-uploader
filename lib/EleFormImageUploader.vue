@@ -20,6 +20,7 @@ export default {
   },
   data () {
     return {
+      isUploadMixin: true,
       defaultAttrs: {
         size: 150
       }
