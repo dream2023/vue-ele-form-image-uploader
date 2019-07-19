@@ -24,6 +24,7 @@ export default {
           label: '头像',
           type: 'image-uploader',
           attrs: {
+            fileSize: 3,
             action: 'https://jsonplaceholder.typicode.com/posts',
             responseFn (response, file) {
               return file.url

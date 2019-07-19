@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue-ele-upload-image": "^2.0.5"
+    "vue-ele-upload-image": "^2.0.6"
   },
   "repository": {
     "type": "git",
@@ -36,7 +36,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "lint-staged": "^8.1.5",
     "vue": "^2.6.10",
-    "vue-ele-form": "^0.2.5",
+    "vue-ele-form": "^0.3.0",
     "vue-template-compiler": "^2.6.10"
   },
   "gitHooks": {
