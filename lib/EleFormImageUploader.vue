@@ -11,16 +11,16 @@
 <script>
 import EleUploadImage from 'vue-ele-upload-image'
 import formMixin from 'vue-ele-form/lib/mixins/formMixin'
+import uploadMixin from 'vue-ele-form/lib/mixins/uploadMixin'
 
 export default {
   name: 'EleFormImage',
-  mixins: [formMixin],
+  mixins: [formMixin, uploadMixin],
   components: {
     EleUploadImage
   },
   data () {
     return {
-      isUploadMixin: true,
       defaultAttrs: {
         size: 150
       }
