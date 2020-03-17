@@ -27,6 +27,7 @@ export default {
             fileSize: 3,
             action: 'https://www.mocky.io/v2/5cc8019d300000980a055e76',
             responseFn (response, file) {
+              // 需要返回一个 URL
               return file.url
             }
           }
