@@ -25,7 +25,7 @@ export default {
           type: 'image-uploader',
           attrs: {
             fileSize: 3,
-            action: 'https://jsonplaceholder.typicode.com/posts',
+            action: 'https://www.mocky.io/v2/5cc8019d300000980a055e76',
             responseFn (response, file) {
               return file.url
             }
@@ -36,7 +36,7 @@ export default {
           type: 'image-uploader',
           attrs: {
             drag: true, // 多张
-            action: 'https://jsonplaceholder.typicode.com/posts',
+            action: 'https://www.mocky.io/v2/5cc8019d300000980a055e76',
             responseFn (response, file) {
               return file.url
             }
