@@ -900,7 +900,7 @@
     "@vue/preload-webpack-plugin" "^1.1.0"
     "@vue/web-component-wrapper" "^1.2.0"
     acorn "^6.4.1"
-    acorn-walk "^6.4.1"
+    acorn-walk "^6.1.1"
     address "^1.0.3"
     autoprefixer "^9.5.1"
     browserslist "^4.5.4"
@@ -8513,7 +8513,7 @@ webpack-bundle-analyzer@^3.3.0:
   integrity sha1-rAKDT0sx3o4n1x5semEjAevdt58=
   dependencies:
     acorn "^6.4.1"
-    acorn-walk "^6.4.1"
+    acorn-walk "^6.1.1"
     bfj "^6.1.1"
     chalk "^2.4.1"
     commander "^2.18.0"

@@ -17,3 +17,4 @@ babel.config.js
 dist/demo.html
 .env.dev-doc
 .env.dev-example
+.idea
