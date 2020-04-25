@@ -1,7 +1,7 @@
 {
   "name": "vue-ele-form-image-uploader",
   "description": "vue-ele-form 的图片上传组件",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": false,
   "scripts": {
     "build": "vue-cli-service build",
@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "vue-ele-upload-image": "^2.0.9"
-  }, "repository": {
+  },
+  "repository": {
     "type": "git",
     "url": "https://github.com/dream2023/vue-ele-form-image-uploader"
   },
