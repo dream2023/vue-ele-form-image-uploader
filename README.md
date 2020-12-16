@@ -49,7 +49,7 @@ formDesc: {
       action: 'https://jsonplaceholder.typicode.com/posts', // 上传地址
       data: {token: 'xxx'}, // 附带数据
       // 上传后对响应处理, 拼接为一个图片的地址
-      handleResponse(response, file, fileList) {
+      responseFn(response, file, fileList) {
         // 根据响应结果, 设置 URL
         return 'https://xxx.xxx.com/image/' + response.id
       }
