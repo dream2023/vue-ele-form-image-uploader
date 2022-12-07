@@ -35,7 +35,7 @@
     "element-ui": "^2.10.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "lint-staged": "^8.1.5",
+    "lint-staged": "^13.1.0",
     "vue": "^2.6.10",
     "vue-ele-form": "^0.3.30",
     "vue-template-compiler": "^2.6.10"
